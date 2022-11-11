@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
+   
+   
+   *{ margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;  
+}
+
+:root{
+    --primarycolor:#182612;
+}
+ header{
+height: 80px;
+width: 100%;
+/* background-color: var(--primarycolor); */
+padding: 10px 40px 0 40px ;
+margin-bottom: -120px;
+ }
+
+ nav ul li{
+    display: inline;
+    float: right;
+    margin: 0 50px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 200;
+ }
+ nav{
+    margin-right: 60px;
+ }
+ .logo{
+    width: 70%;
+    margin-top: 30px;
+    
+ }
+.hero{
+    background-image: url(./bridge.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 100vh;
+    padding:  300px 200px ;
+    margin-top: -80px;
+}
+
+.container{
+    text-align: center;
+}
+.container h1,p{
+    color: #fff;
+}
+h1{
+    font-size: 74px;
+    text-transform: uppercase;
+    
+}
+p{
+padding: 0 300px;
+margin-top: 30px;
+font-weight: lighter;
+}
+button{
+    background-color: E6E5A3;
+    color: #557153;
+    border: none;
+    padding: 20px 60px;
+    border-radius: 5px;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+button:hover{
+    background-color: #182612;
+    color: #557153;
+    border: 1px solid #557153;
+}
